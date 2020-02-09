@@ -1,0 +1,357 @@
+
+body {
+			  font-family: "Lato", sans-serif;
+			}
+
+			.sidepanel  {
+			  width: 0;
+			  position: fixed;
+			  z-index: 1;
+			  height: auto;
+			  top: 0;
+			  left: 0;
+			  background-color: #111;
+			  background:rgba(0,0,0,0.9);
+			  overflow-x: hidden;
+			  transition: 0.5s;
+			  padding-top: 60px;
+			}
+
+			.sidepanel a {
+			  padding: 8px 8px 8px 32px;
+			  text-decoration: none;
+			  font-size: 25px;
+			  color: #818181;
+			  display: block;
+			  transition: 0.3s;
+			}
+
+			.sidepanel a:hover {
+			  color: #f1f1f1;
+			}
+
+			.sidepanel .closebtn {
+			  position: absolute;
+			  top: 0;
+			  right: 25px;
+			  font-size: 36px;
+			}
+
+			.openbtn {
+			  font-size: 20px;
+			  cursor: pointer;
+			  background-color: #111;
+			  color: white;
+			  padding: 10px 10px;
+			  border: none;
+			  position: absolute;
+		      top: -80px;
+		      left: 48%;
+			}
+
+			.openbtn:hover {
+			  background-color:#444;
+			}
+.head1{height: 850px;
+		background: url(../images/hero_bg_2.jpg)center fixed;
+		background-size: cover;
+		padding: 0px;
+		}
+.head2{height: 450px;
+		background: url(../images/hero_bg_1.jpg)center fixed;
+		background-size: cover;
+		margin-bottom: 100px;
+		padding: 0px;
+		}
+	.head1in{background: rgba(0,0,0,0.5);
+			height: 850px;
+
+	}
+	.head2in{background: rgba(0,0,0,0.5);
+			height: 450px;
+
+	}
+	.head1in h2{color: white;
+				font-weight: bold;
+				font-size: 35px;
+				margin: 40px 0px;
+
+	}
+	.head1in ul{margin: 35px 0px;}
+	.head2in h2{color: white;
+				font-weight: bold;
+				margin: 50px 0px;
+	}
+
+	.head1in h1{color: white;
+				font-size: 65px;
+				margin-top: 55px;
+	}
+	.head2in h1{color: white;
+				font-size: 70px;
+				margin-top: 60px;
+	}
+	.head1in p{color: white;
+				font-size: 20px;
+				margin-top: 30px;
+	}
+	.head2in p{color: white;
+				font-size: 20px;
+				margin-top: 30px;
+	}
+	.head1in input{padding: 20px 50px;
+					font-weight: bold;
+					background: #e3c4a8;
+					margin-top: 30px;
+					color: white;
+
+	} 
+	 .barsmenu{position: absolute;
+				right: 20px;
+				cursor: pointer;
+				display: none;
+				top: 50px;
+				color: white;
+				font-size: 25px !important;
+	}
+	.menu li a{color: blue;
+
+	}
+
+
+.king{margin-top: -150px;
+		background-color: #fff;
+		height: 600px;
+		/*border: 1px solid red;*/
+}
+.king1{height: 250px;}
+.kingimg{height: 600px;
+	background: url(../images/img_2.jpg)center;
+}
+.kingimg1{height: 300px;
+		position: relative;
+}
+.kingimg1:hover{transform: scale(0.98);}
+.kingpos{width: 100px;
+		background: #e3c4a8;
+		position: absolute;
+		bottom: 0%;
+}
+.kingpos h4{color: white;
+			font-size: 20px;
+			text-align: center;
+}
+.kingpos p{background-color: black;
+			color: white;
+			text-align: center;
+}
+.kingimg2{width: 900px;
+		height: 600px;
+		}
+.kingimg3{width: 100%;
+		height: 280px;}
+.kingimg2:hover{transform: scale(0.98);}
+.kingimg3:hover{transform: scale(0.98);}
+
+.bkcimg1{margin-bottom: 50px;
+
+}
+.conten1{box-shadow: 0px 0px 3px 7px grey;}
+	
+.conten1 h2{padding: 5px 50px;
+			margin-top:50px;
+
+}
+.conten1 p{padding: 7px 50px;
+
+}
+.conten1 input{padding: 15px 20px;
+				background: #e3c4a8;
+				color: white;
+				margin-top: 30px;
+				margin-left: 40px;
+				margin-bottom: 100px;
+}
+.conten2{margin: 100px 0px;}
+.conten2 h2{font-weight: bold;
+			margin: 20px 0px;
+			letter-spacing: 5px;
+}
+.conten2 p{margin: 30px 0px;
+			line-height: 25px;
+}
+
+.king1 img{height: 300px;
+			width: 250px;
+}
+.king1:hover img{transform: scale(.99);}
+.bkc{
+	position: relative;
+}
+.bkc2{position: absolute;
+		bottom: 0%;
+}
+.bkc2 p{padding: 5px;
+		font-size: 15px;
+		background: #e3c4a8;
+		color:blue;
+		
+
+}
+.b{padding: 10px 40px;
+	margin: 20px;
+	background: #e3c4a8;
+	color: white;
+}
+.img1{width: 130px; 
+		height: 130px;
+		border-radius: 50%;
+	}
+.bkc3{background: #f8f9fa!important;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		margin: 100px 0px;
+}
+.conten3{background: white;
+
+}
+.conten3 p{margin-left: 20px;
+			margin-top: 20px;
+			
+}
+.conten3 h4{margin-left: 20px;
+			color:#e3c4a8; 
+}
+
+
+.social{background-color: #e3c4a8;
+
+}
+.faitems {/*border: 1px solid red;*/
+		text-align: center;
+		padding: 25px 0px;
+		transition: 0.5s;
+		cursor: pointer;
+		font-size: 20px;
+		color: white;
+}
+.faitems a{color: white;}
+.faitems:hover {background-color: #ddb795;}
+.border{width: 20%;
+		border-bottom:2px solid #e3c4a8; 
+	}
+.border1{width: 8%;
+		margin-left: 45%;
+		border-bottom:2px solid #e3c4a8; 
+	}
+.bkc5 h3{font-size: 25px;
+		font-weight: bold;
+}
+.bkc5 p{line-height: 25px;
+
+}
+.bkc5 input{width: 100%;
+			height: 50px;
+
+}
+.conten5{line-height: 30px;
+		margin-bottom: 20px;
+	}
+.conten5:hover a{color:#e3c4a8;}
+.conten5 a{ text-decoration: none;
+			color: black;
+ }
+.left h2{font-size: 20px;
+		margin: 50px 0px;
+		padding-top: 90px;
+}
+.bkcimg{
+		margin: 20px 0px;
+
+}
+.bkcimg1{margin: 40px 0px;}
+/*.next{width: 40px;
+		height: 40px;
+		padding: 10px 0px;
+		border-radius: 50%;
+		border: 1px solid red;
+		margin-left: 8px;
+}*/
+
+.raj1{margin: 70px 0px;}
+.next:hover{background:#e3c4a8;;
+			color:white;
+			font-weight: bold;
+ }
+.raj2 input{width: 100%;
+			height: 50px;
+			border-radius: 5px;
+			margin: 10px 0px;
+}
+.raj2 textarea{width: 100%;
+				height: 150px;
+				margin: 10px 0px;
+				border-radius: 5px;
+}
+.raj2 h4{font-weight: bold;
+		margin: 20px 0px;
+}
+.raj2 p{line-height: 25px;
+
+}
+#button1{width: 150px;
+		height: 50px;
+		background: #e3c4a8;
+}
+#button1:hover{background: pink;}
+.raj3 p{line-height: 25px;
+		margin: 10px 0px;
+}
+.raj4{width: 50px;
+		height: 50px;
+		border: 1px solid red;
+		border-radius: 50%;
+		margin: auto;
+		
+}
+.raj5 h3{font-weight: bold;
+		 font-size: 25px;
+}
+.raj5 h6{color:#ccc;}
+.raj5 input{background:#e3c4a8;
+			color: white;
+ }
+ .r1 {color: #e3c4a8;
+ 		margin: 50px 0px;
+ }
+ .r2 {color: #e3c4a8;}
+ .r1 input {width: 100%;
+ 			height: 50px;
+ 			 }
+ .r1:hover {color: blue;}
+ .r2:hover {color: blue;}
+ .bkc6{margin: 80px 0px;}
+ .follow{text-align: center;
+ 		cursor: pointer;
+ }
+ .follow:hover a{color: white;
+
+ }
+.changecolor{
+	animation: changecolorbkc 1s infinite;
+}
+@keyframes changecolorbkc{
+	0%{color:red;}
+	25%{color: #bf55ec;}
+	50%{color: white;}
+	100%{color:#bf55ec;}
+}
+.changecolor1{
+	animation: changecolorbkc1 1s infinite;
+}
+@keyframes changecolorbkc1{
+	0%{color: white;}
+	25%{color: pink;}
+	50%{color: red;}
+	100%{color: blue;}
+}

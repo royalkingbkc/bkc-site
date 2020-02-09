@@ -1,0 +1,35 @@
+@media only screen and (min-width: 0px) and (max-width: 767px)
+{
+
+	
+	header ul {display: none;}
+	h1{text-align: center;
+		color: red;
+		font-weight: bold;
+		font-size: 60px;
+		margin: 80px 0px 20px 0px;
+	}
+	
+	.main1 p{font-size: 14px;}
+	.bkc3{width: 92%;}
+	.king1 h2{margin-left: 20px;}
+	.border2{margin-left: 20px;}
+	.bkc4{width: 92%;
+		  margin-bottom: 15px;
+	}
+	.king4{width: 92%;
+		   margin-bottom: 15px;
+	}
+	.bkc5{width: 90%;
+			border-bottom: 2px solid gray;
+			}
+}
+
+						
+					 	
+					 	
+								
+
+				
+					 		
+			

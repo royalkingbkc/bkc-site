@@ -1,0 +1,272 @@
+body{background: url(../images/1.jpg)center fixed;
+			color: white;
+			font-family: "Lato", sans-serif;
+		}
+		
+.hedder h1{font-size: 60px;
+			color: white;
+			font-weight: bold;
+		}
+.logo{margin: 15px 0px;}
+.righttext{	font-size: 23px;
+			margin: 15px 0px;
+			color: pink;
+		}
+		.socel i {width:55%;
+				  height: 50px;
+				  padding-top: 15px;
+				  color: gray;
+				  margin-bottom: 20px;
+				font-size: 25px;
+				background: lightblue;
+				border-radius: 10px;
+				/*background:radial-gradient(red,yellow);*/
+		}
+	a:hover i {color:white;}
+	.love{font-size: 20px;
+			color: red;
+	}
+	.b{color: white;
+		text-decoration: none;
+	}
+	.b:hover{color: red;}
+		.sidepanel  {
+			  width: 0;
+			  position: fixed;
+			  z-index: 1;
+			  height: auto;
+			  top: 0;
+			  left: 0;
+			  background-color: #111;
+			  background:rgba(0,0,0,0.9);
+			  overflow-x: hidden;
+			  transition: 0.5s;
+			  padding-top: 60px;
+			}
+
+			.sidepanel a {
+			  padding: 8px 8px 8px 32px;
+			  text-decoration: none;
+			  font-size: 25px;
+			  color: #818181;
+			  display: block;
+			  transition: 0.3s;
+
+			}
+
+			.sidepanel a:hover {
+			  color: #f1f1f1;
+			}
+
+			.sidepanel .closebtn {
+			  position: absolute;
+			  top: 0;
+			  right: 25px;
+			  font-size: 36px;
+			}
+
+			.openbtn {
+			  display: none;
+			  font-size: 20px;
+			  cursor: pointer;
+			  background-color: #111;
+			  color: white;
+			  padding: 10px 15px;
+			  border: none;
+			  position: absolute;
+		      top: -50px;
+		      left: 55%;
+			}
+
+			.openbtn:hover {
+			  background-color:#444;
+			}
+		.changecolor{
+			animation: changecolorbkc 1s infinite;
+			}
+			@keyframes changecolorbkc{
+				0%{color:red;}
+				25%{color: #bf55ec;}
+				50%{color: white;}
+				100%{color:#bf55ec;}
+			}
+		
+		/*Parrot Start*/
+			.parrot{overflow: hidden;}
+
+			.run{
+				  background: url("../images/Untitled1.png");
+				  width: 264px;
+				  height: 221px;
+				  animation:walk 1s steps(6) infinite,
+				       forward 5s linear infinite;
+
+				 }
+				@keyframes walk{
+				    0%{
+				      background-position: 0px;
+
+				    }
+				    100%{
+				      background-position: 1584px;
+				    }
+				 }
+				@keyframes forward{
+				    0%{
+				      transform: translateX(-100px);
+				    }
+				    100%{
+				      transform: translateX(1484px);
+				    }
+				}
+				#running1{
+						 	background: url("../images/Untitled.png");
+						 	width: 264px;
+						 	height: 221px;
+						 	animation:walk 1s steps(6) infinite,
+						 			 backwords 5s linear infinite;
+
+						 }
+						@keyframes walk{
+						 		0%{
+						 			background-position:0px;
+
+						 		}
+						 		100%{
+						 			background-position:1584px;
+						 		}
+						 }
+						@keyframes backwords{
+							 	0%{
+							 		transform: translateX(1484px);
+							 	}
+							 	100%{
+							 		transform: translateZ(0px);
+							 	}
+						}
+					/*parrot End*/
+
+
+	
+
+/*Menu Start*/
+		.btn{
+			margin: 10px;
+			padding: 10px;
+			width: 100px;
+			border-radius:15px;
+			/*cursor: pointer; */
+			color: #fff;
+			font-weight: bold;
+			background-size: 200%;
+			transition: 0.6s;
+
+		}
+		.btn a{text-decoration: none;
+				color: white;
+				}
+
+		.btn1{
+			background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312);
+		}
+
+		.btn2{
+			background-image: linear-gradient(to left,#C4E538,#009432,#C4E538);
+		}
+
+		.btn3{
+			background-image: linear-gradient(to left,#12CBC4,#6052DD,#12CBC4);
+		}
+
+		.btn4{
+			background-image: linear-gradient(to left,#FDA7FD,#9980FA,#FDA7FD);
+		}
+		.btn5{
+			background-image: linear-gradient(to left,red,green,red);
+		}
+		.btn6{
+			background-image: linear-gradient(to left,blue,gray,blue);
+		}
+
+		.btn:hover {background-position:right;}
+/*Menu End*/
+/*Share Start*/
+		.share-button{
+			width: 280px;
+			height: 50px;
+			background: #dfe6e9;
+			border-radius:40px;
+			margin: 5px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			overflow: hidden;
+			position: relative;
+			cursor: pointer;
+			transition: .3s linear;
+
+		}
+		.share-button:hover{transform: scale(1.1);}
+		.share-button span{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background:lightpink;
+			color: green; 
+			text-align: center;
+			line-height: 50px;
+			z-index: 999;
+			transition: .6s linear;
+			border-radius: 40px;
+			font-weight: bold;
+			
+
+		}
+		.share-button:hover span{
+			transform: translateX(-100%);
+			transition-delay:.3s; 
+		}
+		.share-button a{
+			flex: 1;
+			font-size: 26px;
+			color: #2d3436;
+			text-align: center;
+			transform: translateX(-100%);
+			opacity: 0;
+			transition: 0.3s linear;
+
+		}
+		.share-button:hover a{
+			opacity: 1;
+			transform: translateX(0);
+		}
+		.share-button a:nth-of-type(1){
+			transition-delay:1s; 
+		}
+		.share-button a:nth-of-type(2){
+			transition-delay:0.8s; 
+		}
+		.share-button a:nth-of-type(3){
+			transition-delay:0.6s; 
+		}
+		.share-button a:nth-of-type(4){
+			transition-delay:0.4s; 
+		}
+/*Share End*/
+
+.bkc2 ul li{list-style: none;
+			line-height: 50px;
+			font-size: 30px;
+			color: yellow;
+}
+.pic1{margin-bottom: 25px;}
+
+	.fu{width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: pink;
+    text-align: center;
+    border-top: 3px dotted white;
+    background-color: #e75b1e;
+	}	
